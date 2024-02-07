@@ -171,8 +171,10 @@ nav {
   margin-top: 20px;
 }
 
+.seika img{max-width:94%;}
+
 .seika2-img {
-  max-width: 96%;
+  max-width: 94%;
 }
 /* illustrator */
 
