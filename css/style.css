@@ -367,7 +367,7 @@ footer {
     display: grid;
     gap: 20px;
     grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 100px 100px 150px;
     margin-bottom: 70px;
   }
 
