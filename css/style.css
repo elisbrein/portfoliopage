@@ -46,7 +46,7 @@ a:hover {
 }
 
 .page-header h1 {
-  margin: 20px auto 0px 10%;
+  margin: 20px;
 }
 
 .trowel {
@@ -56,8 +56,10 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+
 .logo {
-  width: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 .home-content {
@@ -107,11 +109,6 @@ nav {
   color: #2066d7;
 }
 
-/* .content-border {
-  border: 1px #000 dashed;
-  margin: 0 10px;
-} */
-
 .main-content {
   text-decoration: underline;
   margin-bottom: 20px;
@@ -126,10 +123,6 @@ nav {
 .wireframe img {
   width: 48px;
   height: 48px;
-}
-
-.WCBCafe {
-  padding-bottom: 10px;
 }
 
 .WCBCafe img {
@@ -258,7 +251,6 @@ nav {
 
 .myrireki {
   margin-top: 10px;
-  margin: 5px;
   border-bottom: 1px #000 dashed;
 }
 
@@ -274,6 +266,10 @@ nav {
 .myskill2 {
   margin: 5px;
   border-bottom: 1px #000 dashed;
+}
+
+.mypr {
+  margin-top: 10px;
 }
 
 .mypr p {
@@ -305,7 +301,7 @@ footer {
   } */
 
   .logo {
-    width: 50px;
+    width: 40px;
     height: 40px;
   }
 
@@ -406,6 +402,11 @@ footer {
 @media (max-width: 300px) {
   .page-header {
     height: 80px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 50px;
   }
 
   .purofile-content {
