@@ -30,6 +30,10 @@ a:hover {
   position: relative;
 }
 
+.yohaku {
+  padding: 0px 4%;
+}
+
 .wrapper {
   max-width: 1100px;
   margin: 0px auto;
@@ -37,6 +41,7 @@ a:hover {
   background-color: #fff;
   box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
   border-radius: 3px;
+  margin-bottom: 20px;
 }
 
 .page-header {
@@ -137,7 +142,8 @@ nav {
 /* Photoshop */
 .photoshop-content {
   display: block;
-  margin: 0px auto;
+  margin: 20px 4%;
+  border: 1px #000 dashed;
 }
 
 .page-title {
@@ -151,7 +157,7 @@ nav {
 }
 
 .persona {
-  width: 400px;
+  max-width: 80%;
   margin: 10px auto;
   text-align: left;
   border-bottom: 1px #2066d7 solid;
@@ -178,6 +184,22 @@ nav {
 .seika2-img {
   max-width: 94%;
 }
+
+.kodawari {
+  max-width: 80%;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.kodawari p:first-child {
+  border-bottom: 1px #000 solid;
+}
+
+.kodawari p {
+  padding: 3px 0;
+  margin: 5px;
+}
+
 /* illustrator */
 
 #illustrator {
@@ -185,7 +207,8 @@ nav {
 }
 
 .illustrator-content {
-  margin: 0px 4%;
+  margin: 20px 4%;
+  border: 1px #000 dashed;
 }
 
 .title-illustrator img {
@@ -209,8 +232,9 @@ nav {
 }
 
 .premierepro-content {
-  margin: 0px 4%;
+  margin: 20px 4%;
   padding: 20px 0;
+  border: 1px #000 dashed;
 }
 
 .douga {
@@ -223,6 +247,20 @@ nav {
   margin: 100px auto 40px;
   padding: 10px;
   text-align: left;
+  position: relative;
+}
+
+.mypicture {
+  position: absolute;
+  max-width: 30%;
+  height: auto;
+  top: 20px;
+  left: 20%;
+}
+
+.mypicture img {
+  width: 100px;
+  height: 130px;
 }
 
 .myname {
@@ -309,6 +347,10 @@ footer {
     margin: 0 10px;
   }
 
+  .home-content {
+    margin-top: 100px;
+  }
+
   nav {
     padding: 20px 0 0 0;
   }
@@ -373,7 +415,6 @@ footer {
   }
 
   .persona {
-    width: 200px;
     margin-top: 20px;
   }
 
@@ -386,20 +427,34 @@ footer {
   }
 
   .purofile-content {
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
   .mydate {
-    max-width: 65%;
+    max-width: 50%;
+    overflow-wrap: break-word;
   }
 
   .myname {
     display: block;
-    max-width: 65%;
+    max-width: 50%;
+  }
+
+  .mypicture {
+    position: absolute;
+    max-width: 45%;
+    height: auto;
+    top: 20px;
+    left: 5%;
+  }
+
+  .mypicture img {
+    max-width: 100px;
+    height: 130px;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 283px) {
   .page-header {
     height: 80px;
   }
@@ -407,10 +462,6 @@ footer {
   .logo {
     width: 70px;
     height: 50px;
-  }
-
-  .purofile-content {
-    margin-top: 100px;
   }
 
   .main-nav {
@@ -427,5 +478,16 @@ footer {
 
   .page-title {
     margin-top: 50px;
+  }
+
+  .mypicture {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+  }
+
+  .mypicture img {
+    max-width: 80px;
+    height: 110px;
   }
 }
