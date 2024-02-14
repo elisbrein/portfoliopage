@@ -339,6 +339,10 @@ footer {
     margin: 0 auto;
   } */
 
+    .page-header h1 {
+    margin: 15px;
+  }
+
   .logo {
     width: 40px;
     height: 40px;
